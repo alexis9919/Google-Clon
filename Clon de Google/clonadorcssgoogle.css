@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    padding: 1%;
+    font-size: 13px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell;
+}
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+header{
+    width: 100% ;
+    height:60px ;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+}
+nav .derecha a{
+    margin-right: 30px;
+    color: black;
+}
+nav .derecha a:hover{
+    text-decoration:underline;
+}
+nav .derecha .appgoogle{
+    background-image: url('https://www.svgrepo.com/show/42113/keyboard-buttons-or-visualization-button-of-nine-squares.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+nav .derecha img{
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+main{
+    margin-top: 20px;
+    text-align: center;
+}
+main .LogoGoogle{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .LogoGoogle img{
+    width: 500px;
+    height: 178px;
+}
+main .input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .input input{
+    font-size: larger;
+    width: 450px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+main .input-container:hover{
+    box-shadow: 0px 1px 6px 0px #20212447;
+    border-color: #dfe1e500;
+}
+main .input .icono{
+    background-image: url('https://w7.pngwing.com/pngs/456/948/png-transparent-computer-icons-desktop-web-search-engine-wordpress-com-search-icon-search-logo-website-circle-wordpresscom-thumbnail.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+main .input .icono2{
+    background-image: url('https://www.clipartmax.com/png/middle/146-1462656_open-google-voice-search-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+}
+main .botones{
+    width: 530 px;
+    margin: 0 auto;
+}
+main .botones div{
+    display: inline-block;
+}
+main .botones button{
+    height: 35px;
+    background-color: rgb(245, 244, 244);
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .botones button:hover{
+    border: 1px solid #ece9e9;
+    box-shadow: 0px 1px 0px 0px rgb(202, 202, 202);
+    color:#222;
+    background-color: rgb(245, 244, 244);
+}
+footer{
+    width: 99%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+footer >  ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-content: left;
+
+}
+footer .footer-right{
+    justify-content: right;
+}
+footer > ul > li > a {
+    cursor:wait;
+    margin: 10px;
+    color: #5f6368;
+    cursor: pointer;
+
+}
